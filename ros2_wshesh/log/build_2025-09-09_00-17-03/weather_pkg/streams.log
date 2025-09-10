@@ -1,0 +1,27 @@
+[0.730s] Invoking command in '/ros2_wshesh/src/weather_pkg': PYTHONPATH=/ros2_wshesh/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/weather_pkg build --build-base /ros2_wshesh/build/weather_pkg/build install --record /ros2_wshesh/build/weather_pkg/install.log --single-version-externally-managed install_data
+[0.921s] running egg_info
+[0.935s] writing ../../build/weather_pkg/weather_pkg.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/weather_pkg/weather_pkg.egg-info/entry_points.txt
+[0.935s] writing requirements to ../../build/weather_pkg/weather_pkg.egg-info/requires.txt
+[0.935s] writing top-level names to ../../build/weather_pkg/weather_pkg.egg-info/top_level.txt
+[0.962s] reading manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[0.963s] writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running build_py
+[0.963s] copying weather_pkg/monitor_node.py -> /ros2_wshesh/build/weather_pkg/build/lib/weather_pkg
+[0.963s] running install
+[0.968s] running install_lib
+[0.981s] copying /ros2_wshesh/build/weather_pkg/build/lib/weather_pkg/monitor_node.py -> /ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg
+[0.982s] byte-compiling /ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg/monitor_node.py to monitor_node.cpython-312.pyc
+[0.982s] running install_data
+[0.982s] running install_egg_info
+[0.997s] removing '/ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.997s] Copying ../../build/weather_pkg/weather_pkg.egg-info to /ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info
+[0.998s] running install_scripts
+[1.096s] Installing humidity script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg
+[1.097s] Installing monitor script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg
+[1.097s] Installing pressure script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg
+[1.097s] Installing temperature script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg
+[1.097s] writing list of installed files to '/ros2_wshesh/build/weather_pkg/install.log'
+[1.119s] Invoked command in '/ros2_wshesh/src/weather_pkg' returned '0': PYTHONPATH=/ros2_wshesh/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/weather_pkg build --build-base /ros2_wshesh/build/weather_pkg/build install --record /ros2_wshesh/build/weather_pkg/install.log --single-version-externally-managed install_data

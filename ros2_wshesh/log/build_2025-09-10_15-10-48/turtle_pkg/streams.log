@@ -1,0 +1,24 @@
+[0.803s] Invoking command in '/ros2_wshesh/src/turtle_pkg': PYTHONPATH=/ros2_wshesh/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /ros2_wshesh/build/turtle_pkg/build install --record /ros2_wshesh/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[0.973s] running egg_info
+[0.983s] writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[0.983s] writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[0.983s] writing entry points to ../../build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[0.983s] writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[0.983s] writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[1.004s] reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.005s] writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.005s] copying turtle_pkg/ControlsPublisher.py -> /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg
+[1.005s] running install
+[1.010s] running install_lib
+[1.020s] copying /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg/ControlsPublisher.py -> /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.021s] byte-compiling /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/ControlsPublisher.py to ControlsPublisher.cpython-312.pyc
+[1.021s] running install_data
+[1.021s] running install_egg_info
+[1.033s] removing '/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.033s] Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[1.034s] running install_scripts
+[1.111s] Installing controls_publisher script to /ros2_wshesh/install/turtle_pkg/lib/turtle_pkg
+[1.111s] writing list of installed files to '/ros2_wshesh/build/turtle_pkg/install.log'
+[1.139s] Invoked command in '/ros2_wshesh/src/turtle_pkg' returned '0': PYTHONPATH=/ros2_wshesh/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /ros2_wshesh/build/turtle_pkg/build install --record /ros2_wshesh/build/turtle_pkg/install.log --single-version-externally-managed install_data

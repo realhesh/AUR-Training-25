@@ -1,0 +1,21 @@
+[0.559s] Invoking command in '/ros2_wshesh/src/pkg_py': PYTHONPATH=/ros2_wshesh/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /ros2_wshesh/build/pkg_py/build install --record /ros2_wshesh/build/pkg_py/install.log --single-version-externally-managed install_data
+[0.747s] running egg_info
+[0.760s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[0.760s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[0.760s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[0.786s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[0.786s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] running install
+[0.791s] running install_lib
+[0.805s] running install_data
+[0.805s] running install_egg_info
+[0.819s] removing '/ros2_wshesh/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info' (and everything under it)
+[0.819s] Copying ../../build/pkg_py/pkg_py.egg-info to /ros2_wshesh/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info
+[0.820s] running install_scripts
+[0.915s] Installing timer script to /ros2_wshesh/install/pkg_py/lib/pkg_py
+[0.916s] writing list of installed files to '/ros2_wshesh/build/pkg_py/install.log'
+[0.934s] Invoked command in '/ros2_wshesh/src/pkg_py' returned '0': PYTHONPATH=/ros2_wshesh/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/pkg_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /ros2_wshesh/build/pkg_py/build install --record /ros2_wshesh/build/pkg_py/install.log --single-version-externally-managed install_data

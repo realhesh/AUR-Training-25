@@ -1,0 +1,5 @@
+  File "/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/TurtleController.py", line 26
+    self.pub2 = self.create_publisher(Twist) ,f'/turtle2/cmd_vel',10)
+                                                                    ^
+SyntaxError: unmatched ')'
+

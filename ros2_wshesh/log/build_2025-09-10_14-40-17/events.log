@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000497] (pkg_py) JobQueued: {'identifier': 'pkg_py', 'dependencies': OrderedDict()}
+[0.000697] (turtle_pkg) JobQueued: {'identifier': 'turtle_pkg', 'dependencies': OrderedDict()}
+[0.000733] (weather_pkg) JobQueued: {'identifier': 'weather_pkg', 'dependencies': OrderedDict()}
+[0.000755] (pkg_py) JobStarted: {'identifier': 'pkg_py'}
+[0.010768] (turtle_pkg) JobStarted: {'identifier': 'turtle_pkg'}
+[0.014414] (weather_pkg) JobStarted: {'identifier': 'weather_pkg'}
+[0.099873] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.300473] (-) TimerEvent: {}
+[0.400781] (-) TimerEvent: {}
+[0.501020] (-) TimerEvent: {}
+[0.601296] (-) TimerEvent: {}
+[0.701549] (-) TimerEvent: {}
+[0.801798] (-) TimerEvent: {}
+[0.843793] (weather_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/weather_pkg', 'build', '--build-base', '/ros2_wshesh/build/weather_pkg/build', 'install', '--record', '/ros2_wshesh/build/weather_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_wshesh/src/weather_pkg', 'env': {'HOSTNAME': '6afeaef59cab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_wshesh/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_wshesh/build/weather_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_wshesh/build/weather_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.847620] (turtle_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_pkg', 'build', '--build-base', '/ros2_wshesh/build/turtle_pkg/build', 'install', '--record', '/ros2_wshesh/build/turtle_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_wshesh/src/turtle_pkg', 'env': {'HOSTNAME': '6afeaef59cab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_wshesh/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_wshesh/build/turtle_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_wshesh/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.848767] (pkg_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pkg_py', 'build', '--build-base', '/ros2_wshesh/build/pkg_py/build', 'install', '--record', '/ros2_wshesh/build/pkg_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_wshesh/src/pkg_py', 'env': {'HOSTNAME': '6afeaef59cab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_wshesh/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_wshesh/build/pkg_py', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_wshesh/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/pkg_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.901908] (-) TimerEvent: {}
+[1.002187] (-) TimerEvent: {}
+[1.009081] (weather_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.010753] (turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.011056] (turtle_pkg) StdoutLine: {'line': b'creating ../../build/turtle_pkg/turtle_pkg.egg-info\n'}
+[1.011494] (pkg_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.018566] (weather_pkg) StdoutLine: {'line': b'writing ../../build/weather_pkg/weather_pkg.egg-info/PKG-INFO\n'}
+[1.018774] (weather_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/weather_pkg/weather_pkg.egg-info/dependency_links.txt\n'}
+[1.018948] (weather_pkg) StdoutLine: {'line': b'writing entry points to ../../build/weather_pkg/weather_pkg.egg-info/entry_points.txt\n'}
+[1.019130] (weather_pkg) StdoutLine: {'line': b'writing requirements to ../../build/weather_pkg/weather_pkg.egg-info/requires.txt\n'}
+[1.019301] (weather_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/weather_pkg/weather_pkg.egg-info/top_level.txt\n'}
+[1.020311] (turtle_pkg) StdoutLine: {'line': b'writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO\n'}
+[1.020520] (turtle_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt\n'}
+[1.020659] (turtle_pkg) StdoutLine: {'line': b'writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt\n'}
+[1.020785] (turtle_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt\n'}
+[1.020909] (turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[1.021465] (pkg_py) StdoutLine: {'line': b'writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO\n'}
+[1.021662] (pkg_py) StdoutLine: {'line': b'writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt\n'}
+[1.021841] (pkg_py) StdoutLine: {'line': b'writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt\n'}
+[1.022049] (pkg_py) StdoutLine: {'line': b'writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt\n'}
+[1.022145] (pkg_py) StdoutLine: {'line': b'writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt\n'}
+[1.038512] (weather_pkg) StdoutLine: {'line': b"reading manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'\n"}
+[1.039283] (weather_pkg) StdoutLine: {'line': b"writing manifest file '../../build/weather_pkg/weather_pkg.egg-info/SOURCES.txt'\n"}
+[1.039462] (weather_pkg) StdoutLine: {'line': b'running build\n'}
+[1.039563] (weather_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.039762] (weather_pkg) StdoutLine: {'line': b'running install\n'}
+[1.040566] (turtle_pkg) StdoutLine: {'line': b"reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[1.041034] (turtle_pkg) StdoutLine: {'line': b"writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'\n"}
+[1.041205] (turtle_pkg) StdoutLine: {'line': b'running build\n'}
+[1.041289] (turtle_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.041424] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/build/turtle_pkg/build\n'}
+[1.041509] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/build/turtle_pkg/build/lib\n'}
+[1.041588] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg\n'}
+[1.041711] (turtle_pkg) StdoutLine: {'line': b'copying turtle_pkg/__init__.py -> /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg\n'}
+[1.041793] (turtle_pkg) StdoutLine: {'line': b'running install\n'}
+[1.042833] (pkg_py) StdoutLine: {'line': b"reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'\n"}
+[1.043553] (pkg_py) StdoutLine: {'line': b"writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'\n"}
+[1.043671] (pkg_py) StdoutLine: {'line': b'running build\n'}
+[1.043790] (pkg_py) StdoutLine: {'line': b'running build_py\n'}
+[1.043920] (pkg_py) StdoutLine: {'line': b'running install\n'}
+[1.044044] (weather_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.046045] (turtle_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.048262] (pkg_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.054196] (weather_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.054344] (weather_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.055955] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg\n'}
+[1.056113] (turtle_pkg) StdoutLine: {'line': b'copying /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg\n'}
+[1.056462] (turtle_pkg) StdoutLine: {'line': b'byte-compiling /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[1.056644] (turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.056792] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/install/turtle_pkg/share/ament_index\n'}
+[1.056877] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/install/turtle_pkg/share/ament_index/resource_index\n'}
+[1.057003] (turtle_pkg) StdoutLine: {'line': b'creating /ros2_wshesh/install/turtle_pkg/share/ament_index/resource_index/packages\n'}
+[1.057082] (turtle_pkg) StdoutLine: {'line': b'copying resource/turtle_pkg -> /ros2_wshesh/install/turtle_pkg/share/ament_index/resource_index/packages\n'}
+[1.057181] (turtle_pkg) StdoutLine: {'line': b'copying package.xml -> /ros2_wshesh/install/turtle_pkg/share/turtle_pkg\n'}
+[1.057294] (turtle_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.058668] (pkg_py) StdoutLine: {'line': b'running install_data\n'}
+[1.058786] (pkg_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.064835] (weather_pkg) StdoutLine: {'line': b"removing '/ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.065070] (weather_pkg) StdoutLine: {'line': b'Copying ../../build/weather_pkg/weather_pkg.egg-info to /ros2_wshesh/install/weather_pkg/lib/python3.12/site-packages/weather_pkg-0.0.0-py3.12.egg-info\n'}
+[1.066304] (weather_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.068074] (turtle_pkg) StdoutLine: {'line': b'Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info\n'}
+[1.068781] (turtle_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.069740] (pkg_py) StdoutLine: {'line': b"removing '/ros2_wshesh/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.069956] (pkg_py) StdoutLine: {'line': b'Copying ../../build/pkg_py/pkg_py.egg-info to /ros2_wshesh/install/pkg_py/lib/python3.12/site-packages/pkg_py-0.0.0-py3.12.egg-info\n'}
+[1.070979] (pkg_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.102296] (-) TimerEvent: {}
+[1.141426] (weather_pkg) StdoutLine: {'line': b'Installing humidity script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg\n'}
+[1.141674] (weather_pkg) StdoutLine: {'line': b'Installing monitor script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg\n'}
+[1.141843] (weather_pkg) StdoutLine: {'line': b'Installing pressure script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg\n'}
+[1.142004] (weather_pkg) StdoutLine: {'line': b'Installing temperature script to /ros2_wshesh/install/weather_pkg/lib/weather_pkg\n'}
+[1.142196] (weather_pkg) StdoutLine: {'line': b"writing list of installed files to '/ros2_wshesh/build/weather_pkg/install.log'\n"}
+[1.144168] (turtle_pkg) StdoutLine: {'line': b"writing list of installed files to '/ros2_wshesh/build/turtle_pkg/install.log'\n"}
+[1.145002] (pkg_py) StdoutLine: {'line': b'Installing timer script to /ros2_wshesh/install/pkg_py/lib/pkg_py\n'}
+[1.145329] (pkg_py) StdoutLine: {'line': b"writing list of installed files to '/ros2_wshesh/build/pkg_py/install.log'\n"}
+[1.166818] (weather_pkg) CommandEnded: {'returncode': 0}
+[1.178668] (weather_pkg) JobEnded: {'identifier': 'weather_pkg', 'rc': 0}
+[1.179911] (pkg_py) CommandEnded: {'returncode': 0}
+[1.184764] (pkg_py) JobEnded: {'identifier': 'pkg_py', 'rc': 0}
+[1.185173] (turtle_pkg) CommandEnded: {'returncode': 0}
+[1.190302] (turtle_pkg) JobEnded: {'identifier': 'turtle_pkg', 'rc': 0}
+[1.190985] (-) EventReactorShutdown: {}

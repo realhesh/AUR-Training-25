@@ -1,0 +1,5 @@
+  File "/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/ControlsPublisher.py", line 34
+    elif(key is in ['w','a','s','d','\x1b[A','\x1b[B','\x1b[C','\x1b[D']):
+                ^^
+SyntaxError: invalid syntax
+

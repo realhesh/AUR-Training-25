@@ -1,0 +1,30 @@
+[0.821s] Invoking command in '/ros2_wshesh/src/turtle_pkg': PYTHONPATH=/ros2_wshesh/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /ros2_wshesh/build/turtle_pkg/build install --record /ros2_wshesh/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[0.987s] running egg_info
+[0.997s] writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[0.997s] writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[1.005s] writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[1.005s] writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[1.026s] reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.026s] writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.027s] running build_py
+[1.027s] copying turtle_pkg/TurtleController.py -> /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg
+[1.028s] running install
+[1.031s] running install_lib
+[1.042s] copying /ros2_wshesh/build/turtle_pkg/build/lib/turtle_pkg/TurtleController.py -> /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.042s] byte-compiling /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/TurtleController.py to TurtleController.cpython-312.pyc
+[1.043s] running install_data
+[1.043s] running install_egg_info
+[1.043s]   File "/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/TurtleController.py", line 30
+[1.043s]     if msg.data in ['w,'a','s','d']:
+[1.043s]                                  ^
+[1.043s] SyntaxError: unterminated string literal (detected at line 30)
+[1.044s] 
+[1.054s] removing '/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.054s] Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[1.055s] running install_scripts
+[1.132s] Installing controls_publisher script to /ros2_wshesh/install/turtle_pkg/lib/turtle_pkg
+[1.132s] Installing turtle_controller script to /ros2_wshesh/install/turtle_pkg/lib/turtle_pkg
+[1.133s] writing list of installed files to '/ros2_wshesh/build/turtle_pkg/install.log'
+[1.170s] Invoked command in '/ros2_wshesh/src/turtle_pkg' returned '0': PYTHONPATH=/ros2_wshesh/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /ros2_wshesh/build/turtle_pkg/build install --record /ros2_wshesh/build/turtle_pkg/install.log --single-version-externally-managed install_data
