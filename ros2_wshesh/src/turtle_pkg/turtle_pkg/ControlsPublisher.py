@@ -14,6 +14,7 @@ def get_key():
 class controls_publisher(Node):
     def __init__(self):
         super().__init__('controls_publisher')
+        self.get_logger().info(f"Enter any character to start")
         self.publisher_ = self.create_publisher(String, 'controls', 10)
         self.timer = self.create_timer(0.1, self.check_key)
         self.get_logger().info(f"Started")
