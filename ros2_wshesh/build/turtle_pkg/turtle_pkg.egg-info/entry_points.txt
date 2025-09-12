@@ -1,3 +1,0 @@
-[console_scripts]
-controls_publisher = turtle_pkg.ControlsPublisher:main
-turtle_controller = turtle_pkg.TurtleController:main

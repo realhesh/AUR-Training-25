@@ -1,5 +1,0 @@
-  File "/ros2_wshesh/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/TurtleController.py", line 6
-    def input_to_movement(String movement):
-                                 ^^^^^^^^
-SyntaxError: invalid syntax
-

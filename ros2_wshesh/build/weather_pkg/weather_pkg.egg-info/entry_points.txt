@@ -1,5 +1,0 @@
-[console_scripts]
-humidity = weather_pkg.humidity_node:main
-monitor = weather_pkg.monitor_node:main
-pressure = weather_pkg.pressure_node:main
-temperature = weather_pkg.temperature_node:main
